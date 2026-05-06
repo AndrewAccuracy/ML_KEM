@@ -2,6 +2,12 @@ __pycache__/
 *.pyc
 .DS_Store
 figures/
+!figures/
+figures/*
+!figures/throughput_comparison.png
+!figures/visual_heatmap_tradeoffs.png
+!figures/visual_latency_dumbbell.png
+!figures/visual_pareto_bubble.png
 results.csv
 .venv/
 .local/

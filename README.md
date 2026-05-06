@@ -44,6 +44,28 @@ generate_presentation.py
 - `figures/`: exported charts and visual summary figures.
 - `analysis/`: derived CSV summaries for normalized cost, total cost, and throughput.
 
+### Repository Tree
+
+```text
+ML_KEM/
+├── README.md
+├── test_mlkem_basic.py
+├── benchmark_mlkem.py
+├── plot_mlkem.py
+├── generate_presentation.py
+├── results.csv
+├── analysis/
+│   ├── normalized_costs.csv
+│   ├── total_costs.csv
+│   └── throughput.csv
+├── figures/
+│   ├── throughput_comparison.png
+│   ├── visual_heatmap_tradeoffs.png
+│   ├── visual_latency_dumbbell.png
+│   └── visual_pareto_bubble.png
+└── third_party/
+```
+
 ## Quick Start
 
 ```bash
